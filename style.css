@@ -76,16 +76,19 @@ h1 span{
     font-family: "PPAcma-light";
     src:
       url("./assets/PPAcma-Light.woff2") format("woff2"),
+      url("./assets/PPAcma-Light.woff") format("woff"),
 }
 @font-face {
     font-family: "PPAcma-book";
     src:
       url("./assets/PPAcma-Book.woff2") format("woff2"),
+      url("./assets/PPAcma-Book.woff") format("woff")
 }
 @font-face {
     font-family: "HelveticaNeue";
     src:
       url("./assets/HelveticaNeue.woff2") format("woff2"),
+      url("./assets/HelveticaNeue.woff") format("woff")
 }
 
 
