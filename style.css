@@ -75,17 +75,17 @@ h1 span{
 @font-face {
     font-family: "PPAcma-light";
     src:
-      url("typo/PPAcma-Light.woff2") format("woff2"),
+      url("../typo/PPAcma-Light.woff2") format("woff2"),
 }
 @font-face {
     font-family: "PPAcma-book";
     src:
-      url("typo/PPAcma-Book.woff2") format("woff2"),
+      url("../typo/PPAcma-Book.woff2") format("woff2"),
 }
 @font-face {
     font-family: "HelveticaNeue";
     src:
-      url("typo/HelveticaNeue.woff2") format("woff2"),
+      url("../typo/HelveticaNeue.woff2") format("woff2"),
 }
 
 
