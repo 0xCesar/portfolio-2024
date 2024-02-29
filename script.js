@@ -1,4 +1,4 @@
-import gsap from "gsap";
+//import gsap from "gsap";
 
 /** Hero Section Img */
 var heroSection = document.querySelectorAll('#hero-section .container img');
@@ -43,7 +43,7 @@ gsap.to(scrollingList, {
     }
 });
 
-/** works */
+/** works */ 
 
 let mesTextes = [
     "Crafting visually stunning and user-centric digital experiences. With expertise in graphic design principles, typography, and color theory, I specialize in creating websites that not only attract attention but also engage users on an emotional level.",
@@ -63,13 +63,12 @@ let mesImg = [
 let works = document.querySelectorAll('#work ul li a');
 let content = document.querySelector('#content p');
 let contentimg = document.querySelector('#content img');
-console.log(works)
+
 works.forEach( (el,id) => {
     el.addEventListener('click', () => {
         works.forEach( elem => { elem.classList.remove("selected")})
         el.classList.add("selected")
         content.textContent = mesTextes[id]
         contentimg.src = mesImg[id]
-      //  console.log(id)
     })
 })
